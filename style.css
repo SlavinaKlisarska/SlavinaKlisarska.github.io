@@ -1,0 +1,161 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+div {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    padding: 0px 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.separator {
+    clear: both;
+    width: 100%;
+    height: 50px;
+}
+
+.separator-small {
+    clear: both;
+    width: 100%;
+    height: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 100%;
+    padding: 20px 10px;
+}
+
+.container .logo {
+    float: left;
+    width: 20%;
+}
+
+.container .tabs {
+    float: left;
+    width: 80%;
+}
+
+
+.container .tabs .desc > div {
+    display: none;
+    padding: 20px 0px 10px 0px;
+}
+
+.container .tabs .desc > div div{
+    padding: 0px;
+}
+        
+.container .tabs .desc > div h2 {
+    font-size: 18px;
+    color: #bb1a27;
+    font-weight: bold;
+    margin: 20px 0px 10px 0px;
+    display: block;
+}
+
+.container .tabs .desc > div.active {
+    display: block;
+}
+
+.main-image {
+    float: right;
+    width: 33.3%;
+    text-align: center;
+}
+
+.info {
+    float: right;
+    width: 66.7%;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.2;
+    padding-left: 30px;
+}
+
+.info h1 {
+    font-size: 35px;
+    font-weight: 400;
+    color: #bb1a27;
+    margin: 0px 0px 30px 0px;
+    padding: 0px 10px;
+}
+
+.perc-50 {
+    float: left;
+    width: 50%;
+}
+
+.perc-50 div {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.info h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0px 0px 15px 0px;
+}
+
+.info p,
+.info ul,
+.info li {
+    font-size: 16px;
+}
+
+.info ul {
+    padding: 0px;
+}
+
+
+.info li {
+    background-image: url('../img/tick.jpg');
+    background-position: left 7px;
+    background-repeat: no-repeat;
+    list-style: none;
+    padding: 2px 0px 2px 20px;
+}
+
+.footer {
+    padding: 30px 30px;
+}
+
+.perc-25 {
+    float: left;
+    width: 25%;
+    font-size: 14px;
+}
+
+.perc-25 strong.title {
+    display: block;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    color: #bb1a27;
+}
+
+
+.button {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
